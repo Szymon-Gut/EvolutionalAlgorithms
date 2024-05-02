@@ -82,11 +82,6 @@ class Evolution:
         self.parents = copy.deepcopy(self.population)
         np.random.shuffle(self.parents)
 
-    # def select_best_individuals(self):
-    #     fitness_scores = np.zeros(self.temp_population.shape[0])
-    #     for i, individual in enumerate(self.temp_population):
-    #         fitness_scores[i] = self.fitness_func(individual)
-
     def evaluate(self):
         x = np.array(self.new_population)
         return np.apply_along_axis(self.fitness_func, 1, x)
