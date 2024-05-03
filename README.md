@@ -9,9 +9,11 @@ Project was realised during Computional Inteligence course and the goal was to i
 First case was to implement solution to minimalise 5 dimensional Rastrigin function. Rastrigin function is a non-convex function often used as a performance test problem for optimization algorithms. Solutions of this case is located inside **rastrigin_minimalisation** catalog.
 
 The equation of n dimensional domain:
+
 ![alt text](image.png)
 
 and visualization:
+
 ![alt text](image-1.png)
 
 
@@ -20,6 +22,7 @@ and visualization:
 Second case was to implement solution for cutting stock problem. Probles was defined as to maximize score while filling circle with rectangles with specified height, length and assigned value to each type of rectangle. Solution of this case is located inside **cutting_stock_problem** catalog. Inside you can find `cutting` catalog where are diffrent csv files to test implemented solution. Each file contains specified dimensions and values of rectangles and goal was to maximize score on each csv file.
 
 Visualization of the problem:
+
 ![alt text](image-2.png)
 
 In the algorithm.py is implementation of the standard evolutional algorithm. The logic specified for this task is implemented inside cuttingStock.py where you can find functions like fitness function, functions for arranging rectangles in a circle and much more. To see usage and for easier understanding I strongly suggest to check out AE2.ipynb where tests and visualizations of the algorithm are carried out.
