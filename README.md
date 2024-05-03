@@ -16,6 +16,7 @@ and visualization:
 
 ![alt text](image-1.png)
 
+*source: Wikipedia*
 
 #### `Case 2`
 
